@@ -1,0 +1,74 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+    
+        <title> My2ndCar</title>
+    </head>
+    
+<body style="background-color:#231F20;">
+    
+     <div id="look">
+        <h1>&ensp;<u>My2ndCar.Com</u>&ensp;</h1> <h2>Price Prediction Service </h2> 
+        <h3>Fill following details to check the Car Selling Price.</h3>
+        <form action="/predict" method="post">
+            
+           
+            <h2>Year</h2><input id="first" name="Year" placeholder="eg. like the year '2010' "type="number " ><h4></h4>
+     
+        
+            <h2>Showroom Price(lakhs)</h2><input id="second" name="Present_Price" placeholder="eg. '10.45' lakhs"required="required">
+       
+    
+            <h2>Kilometers Driven</h2><input id="third" name="Kms_Driven" placeholder="eg. 10000 Km driven before"required="required">
+    
+      
+            <h2>Previous Owners</h2><input id="fourth" name="Owner" placeholder="0 or 1 or 2 Previous Owners" required="required">
+      
+    
+            
+            <h2>Fuel Type</h2><select name="Fuel_Type_Petrol" id="fuel" required="required">
+                <option value="Petrol">Petrol</option>
+                <option value="Diesel">Diesel</option>
+                <option value="Diesel">CNG</option>
+            </select>
+            <br>
+            <h2>Dealer or Individual</h2><select name="Seller_Type_Individual" id="resea" required="required">
+                <option value="Dealer">Dealer</option>
+                <option value="Individual">Individual</option>
+            </select>
+            <br>       
+            <h2>Transmission Type</h2><select name="Transmission_Mannual" id="research" required="required">
+                <option value="Mannual">Manual Car</option>
+                <option value="Automatic">Automatic Car</option>
+            </select>
+            <br><br><br>
+          <button id="sub" type="submit"><h4>Check Selling Price </h4> </button>
+        </form>
+        <br><h3>{{ ml_prediction }}</h3><br><br>
+        <div class="contact">
+            <a target="_blank" href="https://github.com/vishalkadu"><i class="fab fa-github fa-lg contact-icon"></i></a>
+            <a target="_blank" href="https://www.linkedin.com/in/vishalkadu"><i class="fab fa-linkedin fa-lg contact-icon"></i></a>
+        </div>
+        <p>© Vishal Kadu 2022</p>
+    </div>
+    <script src="https://kit.fontawesome.com/5f3f547070.js" crossorigin="anonymous"></script>
+    <style>
+     
+        #look {
+            position: absolute;
+            width: 500px;
+            height: 1080px;
+            z-index: 22;
+            top: 16%;
+            left: 42%;
+            margin: -120px 0 0 -120px;
+                    
+        background-color: skyblue;
+        border: 4px double yellow;
+        text-align: center;
+        }
+    </style>
+
+</body>
+</html>

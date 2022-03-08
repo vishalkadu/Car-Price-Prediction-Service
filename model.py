@@ -2,11 +2,13 @@ import numpy as np
 import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.tree import DecisionTreeRegressor
+import warnings
+warnings.filterwarnings('ignore')
 import pickle
 
 data=pd.read_csv('dataset.csv')
 dataset=data[['Year','Selling_Price','Present_Price','Kms_Driven','Fuel_Type','Seller_Type','Transmission','Owner']]
-dataset['Present_Year']=2020
+dataset['Present_Year']=2022
 dataset['Number_of_Years_Old']=dataset['Present_Year']- dataset['Year']
 dataset.drop(labels=['Year', 'Present_Year'],axis=1,inplace=True)
 Fuel_Type=dataset[['Fuel_Type']]
@@ -34,7 +36,8 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_
 model = DecisionTreeRegressor(random_state = 1)
 model.fit(X_train, y_train)
 y_pred=model.predict(X_test)
-
+d=model.predict([[10.85, 7980, 1, 2, 1, 1, 0, 1]])
+print(d)
 
 
 pickle.dump(model, open("dtrmodel.pkl", "wb"))

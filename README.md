@@ -1,6 +1,6 @@
 # My2ndCar.com: The Used Car Price Prediction Service.
 App is deployed on Heroku cloud.
-To Visit Deployed App Click Link: my2ndcar.herokuapp.com/ 
+To Visit Deployed App Click Link: https://my2ndcar.herokuapp.com/
 
 The My2ndCar Price Prediction Service App is built using flask web application, Python(3.10) and its ML Libraries.
 
@@ -18,7 +18,7 @@ The columns in the given dataset are as follows:
 8. Transmission
 9. Owner
 
-Dataset Link: https://www.kaggle.com/nehalbirla/vehicle-dataset-from-cardekho 
+Dataset Link: https://www.kaggle.com/nehalbirla/vehicle-dataset-from-cardekho
 
 # Algorithm 
 

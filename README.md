@@ -38,6 +38,6 @@ Python 3.10, Seaborn 0.11.2, Flask 2.0.3, Gunicorn 20.1.0, Sklearn 0.0, Numpy 1.
 
 ### Application Preview.
 
-Screenshot 2022-03-08 at 12.48.49 PM![image](https://user-images.githubusercontent.com/86619476/157186601-7f0db898-06ad-4a93-9fc6-a8ccf5d3b81f.png)
+![image](https://user-images.githubusercontent.com/86619476/157186601-7f0db898-06ad-4a93-9fc6-a8ccf5d3b81f.png)
 
 

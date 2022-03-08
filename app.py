@@ -1,4 +1,5 @@
-from flask import Flask, render_template, request
+
+        from flask import Flask, render_template, request
 import jsonify
 import requests
 import pickle
@@ -55,7 +56,7 @@ def predict():
         if output<0:
             return render_template('index.html',ml_prediction="Car is not eligible to sell ")
         else:
-            return render_template('index.html',ml_prediction="Selling Price Of Could Be {} Lakhs Approx.".format(output))
+            return render_template('index.html',ml_prediction="Selling Price Of Car Could Be {} Lakhs Approx.".format(output))
     else:
         return render_template('index.html')
 

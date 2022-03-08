@@ -4,7 +4,7 @@ To Visit Deployed App Click Link: https://my2ndcar.herokuapp.com/
 
 The My2ndCar Price Prediction Service App is built using flask web application, Python(3.10) and its ML Libraries.
 
-# About Dataset
+### About Dataset
  which predicts Selling Price Of Car which is our dependant feature) based on given independent features like Car_Name,Year,Selling_Price,	Present_Price,Kms_Driven,Fuel_Type,	Seller_Type, Transmission, and Owner. Selling Price is the Dependent variable(target variable). The dataset is available at Kaggle, and it's provided by cardekho.com  
 This data can be used for a lot of purposes such as price prediction to exemplify the use of Regression in Machine Learning.
 The columns in the given dataset are as follows:
@@ -20,7 +20,7 @@ The columns in the given dataset are as follows:
 
 Dataset Link: https://www.kaggle.com/nehalbirla/vehicle-dataset-from-cardekho
 
-# Algorithm 
+### Algorithm 
 
 After applying different Machine Learning algorithms we get different model accuracies and R2 Score such as,
 
@@ -32,8 +32,10 @@ Decision Tree Regressor with the Accuracy: 87.10 % and R2 Score is 0.91362104769
 
 Thus, Decision tree regression algorithm gave us best Accuracy and Score on the Training Dataset in comparision with other algorithms.
 
-# Tools 
+### Tools 
 
 Python 3.10, Seaborn 0.11.2, Flask 2.0.3, Gunicorn 20.1.0, Sklearn 0.0, Numpy 1.22.2, Pandas 1.4.1, Scikit-learn 1.0.2, Matplotlib 3.5.1,  Seaborn 0.11.2, Juputer Notebook 
+
+### Application Preview.
 
 

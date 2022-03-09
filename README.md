@@ -1,4 +1,5 @@
-# My2ndCar.com: The Used Car Price Prediction Service.
+# My2ndCar.com 
+(The Used Car Price Prediction Service.)
 App is deployed on Heroku cloud.
 To Visit Deployed App Click Link: https://my2ndcar.herokuapp.com/
 

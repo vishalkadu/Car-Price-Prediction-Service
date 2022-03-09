@@ -1,8 +1,7 @@
 # My2ndCar.com 
 (The Used Car Price Prediction Service.)
 
-App is deployed on Heroku cloud.
-(To Visit Deployed App Click Link: https://my2ndcar.herokuapp.com/)
+To Visit Deployed App on Heroku cloud Click Link: https://my2ndcar.herokuapp.com/
 
 The My2ndCar Price Prediction Service App is built using flask web application, Python(3.10) and its ML Libraries.
 

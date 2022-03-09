@@ -3,10 +3,10 @@
 
 To Visit Deployed App on Heroku cloud Click Link: https://my2ndcar.herokuapp.com/
 
-The My2ndCar Price Prediction Service App is built using flask web application, Python(3.10) and its ML Libraries.
+The My2ndCar Price Prediction Service App is built using flask web application, Python(3.10) and its ML Libraries which predicts Selling Price Of Car which is our dependant feature) based on given independent features like Car_Name,Year,Selling_Price,	Present_Price,Kms_Driven,Fuel_Type,	Seller_Type, Transmission, and Owner. Selling Price is the Dependent variable(target variable).
 
 ### About Dataset
- which predicts Selling Price Of Car which is our dependant feature) based on given independent features like Car_Name,Year,Selling_Price,	Present_Price,Kms_Driven,Fuel_Type,	Seller_Type, Transmission, and Owner. Selling Price is the Dependent variable(target variable). The dataset is available at Kaggle, and it's provided by cardekho.com  
+The dataset is available at Kaggle, and it's provided by cardekho.com  
 This data can be used for a lot of purposes such as price prediction to exemplify the use of Regression in Machine Learning.
 The columns in the given dataset are as follows:
 1. Car_Name

@@ -32,7 +32,7 @@ Random Forest Regressor with the Accuracy: 83.22 % and the R2 Score is 0.8693858
 
 Decision Tree Regressor with the Accuracy: 87.10 % and R2 Score is 0.913621047690589 
 
-Thus, Decision tree regression algorithm gave us best Accuracy and Score on the Training Dataset in comparision with other algorithms.
+Thus, Decision tree regression algorithm gave us best Accuracy and Score on the Training Dataset in comparison with other algorithms.
 
 ### Tools 
 

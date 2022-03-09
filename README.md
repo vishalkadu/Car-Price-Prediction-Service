@@ -35,7 +35,7 @@ Thus, Decision tree regression algorithm gave us best Accuracy and Score on the 
 
 ### Tools 
 
-Python 3.10, Seaborn 0.11.2, Flask 2.0.3, Gunicorn 20.1.0, Sklearn 0.0, Numpy 1.22.2, Pandas 1.4.1, Scikit-learn 1.0.2, Matplotlib 3.5.1,  Seaborn 0.11.2, Juputer Notebook 
+Python 3.10, Flask 2.0.3, Gunicorn 20.1.0,Numpy 1.22.2, Pandas 1.4.1, Scikit-learn 1.0.2, Matplotlib 3.5.1, Seaborn 0.11.2, Juputer Notebook(IPython 8.1.0, ipykernel 6.9.1, jupyter_client 7.1.2, jupyter_core 4.9.2)
 
 ### Application Preview.
 
